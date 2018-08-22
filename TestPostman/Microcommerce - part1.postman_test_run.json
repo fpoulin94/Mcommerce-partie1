@@ -1,0 +1,162 @@
+{
+	"id": "42b650eb-a7ac-461d-9272-eed52beba850",
+	"name": "Microcommerce - part1",
+	"allTests": [],
+	"timestamp": "2018-08-22T01:17:14.130Z",
+	"collection_id": "bd08ac3d-8c17-4abe-b40b-5cc2819d0716",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "bd08ac3d-8c17-4abe-b40b-5cc2819d0716",
+		"name": "Microcommerce - part1",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [
+			"31a71aaf-e2e1-4b7a-85fd-d0366eabe7d9",
+			"7ed72171-6a9e-4cc2-a5c2-2f6d085d5c5f",
+			"2efd386c-46f7-46dc-901b-95c61fd7985b"
+		],
+		"folders_order": [],
+		"owner": "5150730",
+		"permissions": {},
+		"favorite": false,
+		"shared": false,
+		"type": "collection",
+		"depth": 0
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "afficherMarge",
+			"id": "31a71aaf-e2e1-4b7a-85fd-d0366eabe7d9",
+			"url": "localhost:9090/AdminProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"10"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "10",
+			"totalRequestTime": "10",
+			"iterationResults": {}
+		},
+		{
+			"name": "trierProduits",
+			"id": "7ed72171-6a9e-4cc2-a5c2-2f6d085d5c5f",
+			"url": "localhost:9090/TrierProduits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"7"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "7",
+			"totalRequestTime": "7",
+			"iterationResults": {}
+		},
+		{
+			"name": "ajouterProduitNoGratis",
+			"id": "2efd386c-46f7-46dc-901b-95c61fd7985b",
+			"url": "localhost:9090/Produits",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {},
+			"times": [
+				"7"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "7",
+			"totalRequestTime": "7",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 24,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "afficherMarge",
+			"id": "31a71aaf-e2e1-4b7a-85fd-d0366eabe7d9",
+			"url": "localhost:9090/AdminProduits",
+			"time": "2018-08-22T01:17:14.130Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "trierProduits",
+			"id": "7ed72171-6a9e-4cc2-a5c2-2f6d085d5c5f",
+			"url": "localhost:9090/TrierProduits",
+			"time": "2018-08-22T01:17:14.130Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		},
+		{
+			"name": "ajouterProduitNoGratis",
+			"id": "2efd386c-46f7-46dc-901b-95c61fd7985b",
+			"url": "localhost:9090/Produits",
+			"time": "2018-08-22T01:17:14.130Z",
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request",
+				"detail": {
+					"name": "Bad Request",
+					"detail": "The request cannot be fulfilled due to bad syntax."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
